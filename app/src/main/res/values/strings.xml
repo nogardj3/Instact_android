@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Instact</string>
+
+    <string name="contacts_toolbar">연락처 추가</string>
+    <string name="contacts_item_add_name">등록</string>
+    <string name="contacts_addname">이름을 입력하세요.</string>
+    <string name="contacts_addphone_label">전화번호</string>
+    <string name="contacts_addphone_hint">번호를 입력하세요.</string>
+    <string name="contacts_addduration_label">남은기간</string>
+    <string name="contacts_addduration_hint">기간설정 ( Default - 15일 )</string>
+    <string name="contacts_addmemo_label">메모</string>
+    <string name="contacts_addmemo_hint">메모</string>
 </resources>

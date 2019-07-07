@@ -3,10 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:keyboard="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/colorPrimary"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/numbertext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -16,13 +17,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintWidth_percent="0.7"
         app:layout_constraintVertical_bias="0.15"
+        android:clickable="false"
         android:paddingBottom="5dp"
+        android:cursorVisible="false"
         android:textSize="50px"
         android:letterSpacing="0.15"
         android:textColor="@color/colorAccent2"
         android:textAlignment="center"
         android:background="@drawable/numbertext"
-        android:text="010454565842"/>
+        tools:text="01012345678"/>
 
     <com.davidmiguel.numberkeyboard.NumberKeyboard
         android:id="@+id/numberkeyboard"

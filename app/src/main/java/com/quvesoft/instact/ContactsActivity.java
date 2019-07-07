@@ -1,6 +1,7 @@
 package com.quvesoft.instact;
 
 import android.os.Bundle;import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 
 public class ContactsActivity extends AppCompatActivity {
@@ -9,5 +10,13 @@ public class ContactsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
+
+        Toolbar tb = findViewById(R.id.contacts_toolbar) ;
+        setSupportActionBar(tb) ;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        tb.setBackgroundColor(getResources().getColor(R.color.toolbarBackground));
+        tb.setTitleTextColor(getResources().getColor(R.color.toolbarText));
     }
 }
