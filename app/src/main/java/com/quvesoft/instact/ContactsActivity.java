@@ -13,6 +13,7 @@ public class ContactsActivity extends AppCompatActivity {
 
         Toolbar tb = findViewById(R.id.contacts_toolbar) ;
         setSupportActionBar(tb) ;
+        setTitle(R.string.contacts_toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 

@@ -69,9 +69,16 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this ,ContactsActivity.class));
                     break;
                 case 2:
-                    startActivity(new Intent(MainActivity.this ,SettingsActivity.class));
+                    startActivity(new Intent(MainActivity.this ,ContactAddActivity.class));
                     break;
-                default:
+                case 3:
+                    startActivity(new Intent(MainActivity.this ,ContactReviseActivity.class));
+                    break;
+                case 4:
+                    startActivity(new Intent(MainActivity.this ,ContactDetailActivity.class));
+                    break;
+                case 5:
+                    startActivity(new Intent(MainActivity.this ,SettingsActivity.class));
                     break;
             }
             return null;}));

@@ -1,13 +1,38 @@
 <resources>
     <string name="app_name">Instact</string>
 
-    <string name="contacts_toolbar">연락처 추가</string>
-    <string name="contacts_item_add_name">등록</string>
-    <string name="contacts_addname">이름을 입력하세요.</string>
-    <string name="contacts_addphone_label">전화번호</string>
-    <string name="contacts_addphone_hint">번호를 입력하세요.</string>
-    <string name="contacts_addduration_label">남은기간</string>
-    <string name="contacts_addduration_hint">기간설정 ( Default - 15일 )</string>
-    <string name="contacts_addmemo_label">메모</string>
-    <string name="contacts_addmemo_hint">메모</string>
+    <string name="contacts_toolbar">연락처</string>
+
+    <string name="contactadd_toolbar">연락처 추가</string>
+    <string name="contactadd_submit">등록</string>
+    <string name="contactadd_name">이름을 입력하세요.</string>
+    <string name="contactadd_phone_label">전화번호</string>
+    <string name="contactadd_phone_hint">번호를 입력하세요.</string>
+    <string name="contactadd_duration_label">남은기간</string>
+    <string name="contactadd_duration_hint">기간설정 ( Default - 15일 )</string>
+    <string name="contactadd_memo_label">메모</string>
+    <string name="contactadd_memo_hint">메모</string>
+
+    <string name="contactrevise_toolbar">연락처 편집</string>
+    <string name="contactrevise_name">이름을 입력하세요.</string>
+    <string name="contactrevise_phone_label">전화번호</string>
+    <string name="contactrevise_phone_hint">번호를 입력하세요.</string>
+    <string name="contactrevise_duration_label">남은기간</string>
+    <string name="contactrevise_duration_hint">기간설정 ( Default - 15일 )</string>
+    <string name="contactrevise_memo_label">메모</string>
+    <string name="contactrevise_memo_hint">메모</string>
+    <string name="contactrevise_delete">즉시 삭제</string>
+
+    <string name="contactdetail_toolbar">지정한 이름</string>
+    <string name="contactdetail_revise">편집</string>
+    <string name="contactdetail_name">이름을 입력하세요.</string>
+    <string name="contactdetail_phone_label">전화번호</string>
+    <string name="contactdetail_phone_hint">번호를 입력하세요.</string>
+    <string name="contactdetail_duration_label">남은기간</string>
+    <string name="contactdetail_duration_hint">기간설정 ( Default - 15일 )</string>
+    <string name="contactdetail_memo_label">메모</string>
+    <string name="contactdetail_memo_hint">메모</string>
+    <string name="contactdetail_sendsms">즉시 삭제</string>
+
+    <string name="settings_toolbar">설정</string>
 </resources>

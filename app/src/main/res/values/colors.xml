@@ -5,6 +5,8 @@
     <color name="colorAccent">#ecebee   </color>
     <color name="colorAccent2">#7c7d84   </color>
 
+    <color name="colorOrange">#f57768</color>
+
     <color name="toolbarBackground">#ffffff</color>
     <color name="toolbarText">#f57768</color>
 </resources>
