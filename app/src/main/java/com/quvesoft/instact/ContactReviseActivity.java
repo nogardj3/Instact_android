@@ -9,7 +9,7 @@ public class ContactReviseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contactrevise);
+        setContentView(R.layout.a_contactrevise);
 
         Toolbar tb = findViewById(R.id.contactrevise_toolbar) ;
         setSupportActionBar(tb) ;

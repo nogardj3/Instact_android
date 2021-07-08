@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.util.Log;
-import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatEditText;
@@ -12,11 +11,6 @@ import androidx.appcompat.widget.AppCompatEditText;
 import com.davidmiguel.numberkeyboard.NumberKeyboard;
 import com.davidmiguel.numberkeyboard.NumberKeyboardListener;
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
-
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
-
-import kotlin.Unit;
-import kotlin.jvm.functions.Function1;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -29,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.a_main);
 
         textView = findViewById(R.id.numbertext);
         textView.addTextChangedListener(new PhoneNumberFormattingTextWatcher());

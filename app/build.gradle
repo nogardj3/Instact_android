@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -45,6 +47,7 @@ dependencies {
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
     implementation "io.reactivex.rxjava3:rxjava:3.0.13"
     implementation 'io.reactivex.rxjava3:rxkotlin:3.0.1'
+
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.25'
     implementation 'com.github.davidmigloz:number-keyboard:3.0.0'
     implementation 'com.etebarian:meow-bottom-navigation:1.0.1'

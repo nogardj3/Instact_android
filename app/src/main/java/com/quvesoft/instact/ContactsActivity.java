@@ -9,7 +9,7 @@ public class ContactsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contacts);
+        setContentView(R.layout.a_contacts);
 
         Toolbar tb = findViewById(R.id.contacts_toolbar) ;
         setSupportActionBar(tb) ;
